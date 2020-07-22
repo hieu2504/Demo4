@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET" />
+
+    <Button
+        android:onClick="RetrofitGet"
+        android:id="@+id/btnGetRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnGetValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volley" />
+
+    <Button
+        android:id="@+id/btnGetAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fast Android net working" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/Post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnPostRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit" />
+
+    <Button
+        android:id="@+id/btnPostVolley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volley" />
+
+    <Button
+        android:id="@+id/btnPostAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fast Android net working" />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:text="Ket Qua"
+        android:layout_gravity="center"
+        android:id="@+id/tvKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
